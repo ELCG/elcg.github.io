@@ -821,6 +821,35 @@ div.jqcloud span.w1 { color: #000000; }
 .highlight .il { color: #d3869b; background-color: #282828 } /* Literal.Number.Integer.Long */
 
 
+.b-loaded {
+    -webkit-animation: opacity-transform 1s;
+    animation: opacity-transform 1s;
+}
+
+@media only screen{
+    @-webkit-keyframes opacity-transform {
+        from {
+            opacity: 0;
+        }
+    
+        to {
+            opacity: 1;
+        }
+    }
+    
+    @keyframes opacity-transform {
+        from {
+            opacity: 0;
+        }
+    
+        to {
+            opacity: 1;
+        }
+    }
+
+}
+
+
 .highlight .hll { background-color: #ffffcc }
 .highlight  { background: #282828; color: #ebdbb2; background-color: #282828 }
 .highlight .c { color: #928374; font-style: italic; background-color: #282828 } /* Comment */
