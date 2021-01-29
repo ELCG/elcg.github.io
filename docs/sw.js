@@ -1,4 +1,4 @@
-const version = "3c58132";
+const version = "2b1e726";
 const currentCacheName = `ELCWEB-${version}`;
 const filesToCache = [
     "/",
@@ -27,6 +27,7 @@ const filesToCache = [
     "/extra/icon-384x384-thumbnail.png",
     "/extra/icon-512x512-thumbnail.png",
     "/extra/sw_template.js",
+    "/feeds/all.atom.xml",
     "/finanzas/",
     "/finanzas/index.html",
     "/images/Pelican-logo-no-oficial-thumbnail.png",

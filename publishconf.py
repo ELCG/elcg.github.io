@@ -16,6 +16,11 @@ RELATIVE_URLS = False
 GOOGLE_ANALYTICS = "G-G194ENC3CE"
 DISQUS_SITENAME = "https-elcg-github-io"
 
+FEED_DOMAIN = 'http://feeds.feedburner.com'
+FEED_ALL_ATOM  = 'ELCG'
+FEED_ATOM  = 'feeds/all.atom.xml'
+
+
 RECORD_SESSION = False
 
 DELETE_OUTPUT_DIRECTORY = True
