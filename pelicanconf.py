@@ -27,6 +27,17 @@ PLUGINS = [
 ]
 
 SERVICE_WORKER_THEMPLATE = "content/extra/sw_template.js"
+
+STATIC_PATHS = ["images", "extra"]
+
+EXTRA_PATH_METADATA = {
+    'extra/icon-192x192.png': {'path': 'icon-192x192.png'},
+    'extra/icon-256x256.png': {'path': 'icon-256x256.png'},
+    'extra/icon-384x384.png': {'path': 'icon-384x384.png'},
+    'extra/icon-512x512.png': {'path': 'icon-512x512.png'},
+    'extra/manifest.webmanifest': {'path': 'manifest.webmanifest'},
+}
+
 BLUR_PATH = "content"
 
 ERT_WPM = 200

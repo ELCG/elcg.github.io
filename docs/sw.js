@@ -1,4 +1,4 @@
-const version = "29738e9";
+const version = "518e1ac";
 const currentCacheName = `ELCWEB-${version}`;
 const filesToCache = [
     "/",
@@ -22,6 +22,11 @@ const filesToCache = [
     "/drafts/pages/portfolio.html",
     "/etiquetas/",
     "/etiquetas/index.html",
+    "/extra/icon-192x192-thumbnail.png",
+    "/extra/icon-256x256-thumbnail.png",
+    "/extra/icon-384x384-thumbnail.png",
+    "/extra/icon-512x512-thumbnail.png",
+    "/extra/sw_template.js",
     "/finanzas/",
     "/finanzas/index.html",
     "/images/Pelican-logo-no-oficial-thumbnail.png",
@@ -31,6 +36,7 @@ const filesToCache = [
     "/link/buscador/index.html",
     "/link/sitio-personal/",
     "/link/sitio-personal/index.html",
+    "/manifest.webmanifest",
     "/portafolio/",
     "/portafolio/index.html",
     "/posts/con-plugins-la-vida-es-mas-sencilla/",
@@ -61,7 +67,8 @@ const filesToCache = [
     "/theme/fonts/fontawesome-webfont.svg",
     "/theme/js/jqcloud.min.js",
     "/theme/js/lazy_loading.js",
-    "/theme/js/scripts_bundled.js"
+    "/theme/js/scripts_bundled.js",
+    "/theme/js/serviceWorker.js"
 ]
 
 self.addEventListener('install', event => {
