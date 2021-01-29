@@ -14,6 +14,7 @@ SITEURL = 'https://elcg.github.io'
 RELATIVE_URLS = False
 
 GOOGLE_ANALYTICS = "G-G194ENC3CE"
+DISQUS_SITENAME = "https-elcg-github-io"
 
 DELETE_OUTPUT_DIRECTORY = True
 
