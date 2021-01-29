@@ -13,10 +13,10 @@ from pelicanconf import *
 SITEURL = 'https://elcg.github.io'
 RELATIVE_URLS = False
 
-GOOGLE_ANALYTICS = "G-G194ENC3CE"
-DISQUS_SITENAME = "https-elcg-github-io"
+GOOGLE_ANALYTICS = ""
+DISQUS_SITENAME = ""
 
-RECORD_SESSION = True
+RECORD_SESSION = False
 
 DELETE_OUTPUT_DIRECTORY = True
 
