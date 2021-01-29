@@ -1,5 +1,6 @@
 Title: Con plugins la vida es más sencilla
 Date: 22.12.2020
+Summary: Para todos aquellos que hayan pasado por la escuela seguro que no se olvidarán nunca de...
 
 Para todos aquellos que hayan pasado por la escuela seguro que no se olvidarán nunca de...
 

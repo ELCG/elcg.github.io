@@ -21,7 +21,13 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ["sitemap", "shortener"]
+PLUGINS = ["sitemap", "shortener", "pelican-ert", "pelican.plugins.render_math"]
+
+
+ERT_WPM = 200
+ERT_FORMAT = "{time}"
+ERT_INT = True
+
 SHORTENER_FILE = "shortener.json"
 SHORTENER_FOLDER = "link"
 
