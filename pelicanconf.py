@@ -33,3 +33,26 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+AUTHORS_SAVE_AS = 'autores/index.html'
+CATEGORIES_SAVE_AS = 'categorias/index.html'
+ARCHIVES_SAVE_AS = 'archivo/index.html'
+TAGS_SAVE_AS = 'etiquetas/index.html'
+
+
+
+ARTICLE_URL = 'posts/{slug}' 
+ARTICLE_SAVE_AS = 'posts/{slug}/index.html'
+
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
+
+AUTHOR_URL = 'author/{slug}/'
+AUTHOR_SAVE_AS = 'author/{slug}/index.html'
+
+CATEGORY_URL = 'category/{slug}/'
+CATEGORY_SAVE_AS = 'category/{slug}/index.html'
+
+TAG_URL = 'tag/{slug}/'
+TAG_SAVE_AS = 'tag/{slug}.html'
+
