@@ -21,7 +21,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ["sitemap", "shortener", "pelican-ert", "pelican.plugins.render_math"]
+PLUGINS = ["sitemap", "shortener", "pelican-ert", "pelican.plugins.render_math", "bundler"]
 
 
 ERT_WPM = 200
