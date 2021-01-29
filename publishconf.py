@@ -16,6 +16,8 @@ RELATIVE_URLS = False
 GOOGLE_ANALYTICS = "G-G194ENC3CE"
 DISQUS_SITENAME = "https-elcg-github-io"
 
+RECORD_SESSION = True
+
 DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
