@@ -13,7 +13,7 @@ from pelicanconf import *
 SITEURL = 'https://elcg.github.io'
 RELATIVE_URLS = False
 
-GOOGLE_ANALYTICS = "UA-71773079-7"
+GOOGLE_ANALYTICS = "G-G194ENC3CE"
 
 DELETE_OUTPUT_DIRECTORY = True
 
