@@ -7,6 +7,7 @@ SITEURL = ''
 
 PATH = 'content'
 OUTPUT_PATH = 'docs/'
+THEME = "MinimalXY"
 
 TIMEZONE = 'America/Argentina/Cordoba'
 
