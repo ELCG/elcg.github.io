@@ -36,36 +36,9 @@ def clean(c):
         shutil.rmtree(CONFIG['deploy_path'])
         os.makedirs(CONFIG['deploy_path'])
 
-def get_filepaths(directory, extensions=[]): 
-    file_paths = []  # List which will store all of the full filepaths.
-    
-    exts = extensions
-
-    if isinstance(extensions, str):
-        exts = [extensions]
-
-    # Walk the tree.
-    for root, _, files in os.walk(directory):
-        for filename in files:
-
-            if not any(filename.endswith(f".{ext}") for ext in exts):
-                continue
-
-            filepath = os.path.join(root, filename).replace("\\", "/")
-            file_paths.append(filepath)
-
-    return file_paths
-
-
-def compile_scss(c, path):
-    paths = get_filepaths(path, 'scss')
-    for filename in paths:
-        c.run(f"sass {filename} {filename}.css -s expanded")
-
 @task
 def build(c):
     """Build local version of site"""
-    compile_scss(c, 'MinimalXY')
     pelican_run('-s {settings_base}'.format(**CONFIG))
 
 @task
@@ -102,7 +75,6 @@ def reserve(c):
 @task
 def preview(c):
     """Build production version of site"""
-    compile_scss(c, 'MinimalXY')
     pelican_run('-s {settings_publish}'.format(**CONFIG))
 
 @task
