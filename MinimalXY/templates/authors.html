@@ -15,7 +15,7 @@
       {% if author==AUTHOR %}
       <div id="{{ author.page_name[7:] }}" class="w3-white w3-border w3-border-green" style="padding: 24px;">
         <div style="display: flex; align-items: center;">
-          <img style="width: 120px; height: 120px;" src="{{ AUTHOR_AVATAR }}" onerror="this.src='theme/images/avatar.png'"</img>
+          <img style="width: 120px; height: 120px;" src="{{ AUTHOR_AVATAR }}" onerror="this.src='{{ SITENAME }}/theme/images/avatar.png'"</img>
           <span class="w3-hover-text-dark-grey" style="font-size: 16pt; font-weight: bold; margin-left: 20px;">{{ author }}</span>
         </div>
 
@@ -44,7 +44,7 @@
       {% if author!=AUTHOR %}
       <div id="{{ author.page_name[7:] }}" class="w3-white w3-border w3-border-grey" style="padding: 24px;">
         <div style="display: flex; align-items: center;">
-          <img style="width: 120px; height: 120px;" src="{{ AUTHOR_AVATAR }}" onerror="this.src='theme/images/avatar.png'"></img>
+          <img style="width: 120px; height: 120px;" src="{{ AUTHOR_AVATAR }}" onerror="this.src='{{ SITEURL }}/theme/images/avatar.png'"></img>
           <span class="w3-hover-text-dark-grey" style="font-size: 16pt; font-weight: bold; margin-left: 20px;">{{ author }}</span>
         </div>
 
