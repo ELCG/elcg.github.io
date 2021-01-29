@@ -1,4 +1,4 @@
-const version = "518e1ac";
+const version = "3c58132";
 const currentCacheName = `ELCWEB-${version}`;
 const filesToCache = [
     "/",
