@@ -21,7 +21,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ["sitemap"]
+PLUGINS = ["sitemap", "shortener"]
+SHORTENER_FILE = "shortener.json"
+SHORTENER_FOLDER = "link"
 
 SITEMAP = {
     'format': 'xml',
