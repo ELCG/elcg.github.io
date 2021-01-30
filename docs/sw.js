@@ -1,4 +1,4 @@
-const version = "4934324";
+const version = "38449ad";
 const currentCacheName = `ELCWEB-${version}`;
 const filesToCache = [
     "/",
@@ -38,16 +38,17 @@ const filesToCache = [
     "/link/sitio-personal/",
     "/link/sitio-personal/index.html",
     "/manifest.webmanifest",
+    "/plugins-en.html",
     "/portafolio/",
     "/portafolio/index.html",
-    "/posts/con-plugins-la-vida-es-mas-sencilla/",
-    "/posts/con-plugins-la-vida-es-mas-sencilla/index.html",
     "/posts/markdown-para-pelican/",
     "/posts/markdown-para-pelican/index.html",
     "/posts/mi-primer-articulo/",
     "/posts/mi-primer-articulo/index.html",
     "/posts/mira-mas-alla/",
     "/posts/mira-mas-alla/index.html",
+    "/posts/plugins/",
+    "/posts/plugins/index.html",
     "/sitemap.xml",
     "/sobre-mi/",
     "/sobre-mi/Pelican-logo-no-oficial-thumbnail.png",
