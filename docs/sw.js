@@ -1,4 +1,4 @@
-const version = "38449ad";
+const version = "f0b6b40";
 const currentCacheName = `ELCWEB-${version}`;
 const filesToCache = [
     "/",
@@ -37,6 +37,7 @@ const filesToCache = [
     "/link/buscador/index.html",
     "/link/sitio-personal/",
     "/link/sitio-personal/index.html",
+    "/localization.ini",
     "/manifest.webmanifest",
     "/plugins-en.html",
     "/portafolio/",
@@ -68,6 +69,7 @@ const filesToCache = [
     "/theme/css/w3.css",
     "/theme/fonts/fontawesome-webfont.svg",
     "/theme/js/jqcloud.min.js",
+    "/theme/js/l10n.js",
     "/theme/js/lazy_loading.js",
     "/theme/js/scripts_bundled.js",
     "/theme/js/serviceWorker.js"
