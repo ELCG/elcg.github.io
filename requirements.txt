@@ -1,0 +1,6 @@
+pelican==4.5.3
+markdown==3.3.3
+invoke==1.4.1
+livereload==2.6.3
+pillow==8.0.1
+pelican-render-math==1.0.3
